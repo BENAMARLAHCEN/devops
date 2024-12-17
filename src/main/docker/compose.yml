@@ -13,5 +13,5 @@ volumes:
   postgres_data:
     driver: local
 networks:
-  jenkins-network:
+  jenkins_postgres_network:
     driver: bridge
