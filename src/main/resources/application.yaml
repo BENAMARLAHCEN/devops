@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5433/devopsDb
+    url: jdbc:postgresql://host.docker.internal:5433/devopsDb
     username: devopsDb
     password: devopsDb
   jpa:
