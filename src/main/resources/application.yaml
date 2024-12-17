@@ -13,9 +13,16 @@ spring:
     properties:
       hibernate:
         default_schema: public
-  liquibase:
-    enabled: true
-    change-log: db/changelog/master.yaml
 
   sonar:
     login: ${SONAR_PASSWORD}
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
