@@ -31,6 +31,7 @@
         <sonar.login>sqa_abbf615e55c0ed4589e69e739114cee763a5ad5a</sonar.login>
     </properties>
 
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
